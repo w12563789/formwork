@@ -34,6 +34,7 @@
 
 <script src="__static__/lib/layui-v2.5.4/layui.js" charset="utf-8"></script>
 <script src="__static__/js/lay-config.js?v=1.0.4" charset="utf-8"></script>
+<script src="__static__/js/base.js?v=1.0.4" charset="utf-8"></script>
 <script>
     layui.use(['table', 'treetable'], function () {
         var $ = layui.jquery;
@@ -86,7 +87,12 @@
         });
 
         $('#btn-add').click(function () {
-            treetable.expandAll('#munu-table');
+            var params = {
+                "title" : "新增权限",
+                "url"   : 'auth/add',
+                'table_name' : 'jobsListTable' //主页面table id
+            };
+            publicMethod.add_method(params);
         });
 
         //监听工具条
