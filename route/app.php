@@ -18,5 +18,7 @@ Route::get('hello/:name', 'index/hello');
 Route::any('/login', 'Login/login');
 Route::any('/index', 'Index/index');
 Route::any('auth/index', 'Auth/index');
+Route::any('auth/add', 'Auth/add');
+Route::any('auth/menus', 'Auth/getAllMenus');
 
 

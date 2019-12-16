@@ -22,3 +22,19 @@ function  treeData(array $data, int $pid =0) : array
     return $tree;
 }
 
+
+
+function  treeData2(array $data, int $pid =0) : array
+{
+    $tree = array();
+    foreach ($data as $row) {
+
+        if($row['pid'] == $pid){
+            $row['children'] = treeData($data,$row['id']);
+            $tree[] = $row;
+        }
+
+    }
+    return $tree;
+}
+

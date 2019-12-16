@@ -41,10 +41,34 @@ class Auth extends BaseController
     public function add()
     {
         if (Request::isPost()) {
+            $request = Request::post();
+            $this->validate([
+                'name' => 'require',
+                'name' => 'require',
+                'name' => 'require',
+                'name' => 'require',
+            ]);
 
+            validate();
+            (new AuthRule)->saveOne([
+                'name'
+            ]);
         }
 
         return view('form');
+    }
+
+
+    public function getAllMenus()
+    {
+        $menus = self::getMenuLists()->toArray();
+
+        foreach ($menus as &$menu) {
+            $menu['name'] = $menu['title'];
+        }
+        $menus = treeData2($menus);
+        array_unshift($menus,['id' => 0,'name' => '默认顶级']);
+        return $menus;
     }
 
 }

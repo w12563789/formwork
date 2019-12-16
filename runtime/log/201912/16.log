@@ -1,0 +1,1629 @@
+[2019-12-16T10:29:25+08:00][info] [ VIEW ] /yd/php/tp6.0/view/login/login.html [ array (
+) ]
+[2019-12-16T10:29:29+08:00][sql] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:29:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_user` [ RunTime:0.000624s ]
+[2019-12-16T10:29:29+08:00][sql] SELECT * FROM `demo_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000342s ]
+[2019-12-16T10:29:29+08:00][sql] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:29:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000501s ]
+[2019-12-16T10:29:29+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000236s ]
+[2019-12-16T10:29:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000443s ]
+[2019-12-16T10:29:29+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000219s ]
+[2019-12-16T10:29:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000393s ]
+[2019-12-16T10:29:29+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000218s ]
+[2019-12-16T10:29:29+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T10:29:31+08:00][sql] CONNECT:[ UseTime:0.000458s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:29:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000811s ]
+[2019-12-16T10:29:31+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000392s ]
+[2019-12-16T10:29:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000476s ]
+[2019-12-16T10:29:31+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000346s ]
+[2019-12-16T10:29:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000624s ]
+[2019-12-16T10:29:31+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000331s ]
+[2019-12-16T10:29:31+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T10:31:51+08:00][sql] CONNECT:[ UseTime:0.000330s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:31:51+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000514s ]
+[2019-12-16T10:31:51+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[2019-12-16T10:31:51+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000391s ]
+[2019-12-16T10:31:51+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000225s ]
+[2019-12-16T10:31:51+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000393s ]
+[2019-12-16T10:31:51+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000251s ]
+[2019-12-16T10:31:51+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T10:31:52+08:00][sql] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:31:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000749s ]
+[2019-12-16T10:31:52+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000374s ]
+[2019-12-16T10:31:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000954s ]
+[2019-12-16T10:31:52+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000248s ]
+[2019-12-16T10:31:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000677s ]
+[2019-12-16T10:31:52+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000299s ]
+[2019-12-16T10:31:52+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T10:33:09+08:00][sql] CONNECT:[ UseTime:0.000281s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:33:09+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000469s ]
+[2019-12-16T10:33:09+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[2019-12-16T10:33:09+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000423s ]
+[2019-12-16T10:33:09+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000228s ]
+[2019-12-16T10:33:09+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000526s ]
+[2019-12-16T10:33:09+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000354s ]
+[2019-12-16T10:33:09+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T10:34:33+08:00][sql] CONNECT:[ UseTime:0.000297s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:34:33+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000432s ]
+[2019-12-16T10:34:33+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000366s ]
+[2019-12-16T10:34:33+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000626s ]
+[2019-12-16T10:34:33+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000228s ]
+[2019-12-16T10:34:33+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000395s ]
+[2019-12-16T10:34:33+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000248s ]
+[2019-12-16T10:34:33+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T10:34:50+08:00][sql] CONNECT:[ UseTime:0.000294s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:34:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000441s ]
+[2019-12-16T10:34:50+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000242s ]
+[2019-12-16T10:34:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000322s ]
+[2019-12-16T10:34:50+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000175s ]
+[2019-12-16T10:34:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000352s ]
+[2019-12-16T10:34:50+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000240s ]
+[2019-12-16T10:34:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T10:35:59+08:00][sql] CONNECT:[ UseTime:0.000282s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:35:59+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000618s ]
+[2019-12-16T10:35:59+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000342s ]
+[2019-12-16T10:35:59+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000652s ]
+[2019-12-16T10:35:59+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000229s ]
+[2019-12-16T10:35:59+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000464s ]
+[2019-12-16T10:35:59+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000252s ]
+[2019-12-16T10:35:59+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T10:36:19+08:00][sql] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:36:19+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.001093s ]
+[2019-12-16T10:36:19+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2019-12-16T10:36:19+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000392s ]
+[2019-12-16T10:36:19+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000218s ]
+[2019-12-16T10:36:19+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000403s ]
+[2019-12-16T10:36:19+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000285s ]
+[2019-12-16T10:36:19+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T10:36:50+08:00][sql] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T10:36:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000540s ]
+[2019-12-16T10:36:50+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000335s ]
+[2019-12-16T10:36:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000566s ]
+[2019-12-16T10:36:50+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000359s ]
+[2019-12-16T10:36:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000523s ]
+[2019-12-16T10:36:50+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000330s ]
+[2019-12-16T10:36:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T10:36:51+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:06:21+08:00][info] [ VIEW ] /yd/php/tp6.0/view/login/login.html [ array (
+) ]
+[2019-12-16T11:06:30+08:00][info] [ VIEW ] /yd/php/tp6.0/view/login/login.html [ array (
+) ]
+[2019-12-16T11:06:33+08:00][sql] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:06:33+08:00][sql] SHOW FULL COLUMNS FROM `demo_user` [ RunTime:0.058637s ]
+[2019-12-16T11:06:33+08:00][sql] SELECT * FROM `demo_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000520s ]
+[2019-12-16T11:06:33+08:00][sql] CONNECT:[ UseTime:0.000279s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:06:33+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000379s ]
+[2019-12-16T11:06:33+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[2019-12-16T11:06:33+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000300s ]
+[2019-12-16T11:06:33+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000241s ]
+[2019-12-16T11:06:33+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000322s ]
+[2019-12-16T11:06:33+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000223s ]
+[2019-12-16T11:06:33+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T11:06:36+08:00][sql] CONNECT:[ UseTime:0.000300s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:06:36+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000388s ]
+[2019-12-16T11:06:36+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000236s ]
+[2019-12-16T11:06:36+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000371s ]
+[2019-12-16T11:06:36+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000218s ]
+[2019-12-16T11:06:36+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000352s ]
+[2019-12-16T11:06:36+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000240s ]
+[2019-12-16T11:06:36+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:06:37+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:07:19+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:10:28+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:10:56+08:00][sql] CONNECT:[ UseTime:0.000282s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:10:56+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000353s ]
+[2019-12-16T11:10:56+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000201s ]
+[2019-12-16T11:10:56+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000300s ]
+[2019-12-16T11:10:56+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[2019-12-16T11:10:56+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000317s ]
+[2019-12-16T11:10:56+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000252s ]
+[2019-12-16T11:10:56+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:10:57+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:11:30+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:11:49+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:11:51+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:11:56+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:12:00+08:00][sql] CONNECT:[ UseTime:0.000541s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:12:00+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000887s ]
+[2019-12-16T11:12:00+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000229s ]
+[2019-12-16T11:12:00+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000348s ]
+[2019-12-16T11:12:00+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000258s ]
+[2019-12-16T11:12:00+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000392s ]
+[2019-12-16T11:12:00+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000230s ]
+[2019-12-16T11:12:00+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:12:01+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:12:52+08:00][sql] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:12:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000522s ]
+[2019-12-16T11:12:52+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000329s ]
+[2019-12-16T11:12:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000583s ]
+[2019-12-16T11:12:52+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000322s ]
+[2019-12-16T11:12:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000506s ]
+[2019-12-16T11:12:52+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000554s ]
+[2019-12-16T11:12:52+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T11:12:52+08:00][sql] CONNECT:[ UseTime:0.000312s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:12:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000354s ]
+[2019-12-16T11:12:52+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[2019-12-16T11:12:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000350s ]
+[2019-12-16T11:12:52+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[2019-12-16T11:12:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000511s ]
+[2019-12-16T11:12:52+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000314s ]
+[2019-12-16T11:12:52+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:12:53+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:14:30+08:00][sql] CONNECT:[ UseTime:0.000325s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:14:30+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000500s ]
+[2019-12-16T11:14:30+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2019-12-16T11:14:30+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000396s ]
+[2019-12-16T11:14:30+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000245s ]
+[2019-12-16T11:14:30+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000368s ]
+[2019-12-16T11:14:30+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000358s ]
+[2019-12-16T11:14:30+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T11:14:31+08:00][sql] CONNECT:[ UseTime:0.000325s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:14:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000348s ]
+[2019-12-16T11:14:31+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000253s ]
+[2019-12-16T11:14:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000332s ]
+[2019-12-16T11:14:31+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000325s ]
+[2019-12-16T11:14:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000437s ]
+[2019-12-16T11:14:31+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000491s ]
+[2019-12-16T11:14:31+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:14:31+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:16:23+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:17:36+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:18:11+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:18:15+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:19:11+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:19:13+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:19:16+08:00][sql] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:19:16+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000691s ]
+[2019-12-16T11:19:16+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000495s ]
+[2019-12-16T11:19:16+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000461s ]
+[2019-12-16T11:19:16+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000381s ]
+[2019-12-16T11:19:16+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000520s ]
+[2019-12-16T11:19:16+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000363s ]
+[2019-12-16T11:19:16+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:19:17+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:20:56+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:20:58+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:21:03+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:21:11+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:24:04+08:00][sql] CONNECT:[ UseTime:0.000284s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:24:04+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000438s ]
+[2019-12-16T11:24:04+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000240s ]
+[2019-12-16T11:24:04+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000444s ]
+[2019-12-16T11:24:04+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[2019-12-16T11:24:04+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000379s ]
+[2019-12-16T11:24:04+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000245s ]
+[2019-12-16T11:24:04+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:24:06+08:00][sql] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:24:06+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000517s ]
+[2019-12-16T11:24:06+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2019-12-16T11:24:06+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000369s ]
+[2019-12-16T11:24:06+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000245s ]
+[2019-12-16T11:24:06+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000445s ]
+[2019-12-16T11:24:06+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000315s ]
+[2019-12-16T11:24:06+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:28:24+08:00][sql] CONNECT:[ UseTime:0.000420s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:28:24+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000381s ]
+[2019-12-16T11:28:24+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[2019-12-16T11:28:24+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000324s ]
+[2019-12-16T11:28:24+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000190s ]
+[2019-12-16T11:28:24+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000307s ]
+[2019-12-16T11:28:24+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000245s ]
+[2019-12-16T11:28:24+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:28:25+08:00][sql] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:28:25+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000458s ]
+[2019-12-16T11:28:25+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000206s ]
+[2019-12-16T11:28:25+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000558s ]
+[2019-12-16T11:28:25+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000359s ]
+[2019-12-16T11:28:25+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000399s ]
+[2019-12-16T11:28:25+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000244s ]
+[2019-12-16T11:28:25+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:29:52+08:00][sql] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:29:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000414s ]
+[2019-12-16T11:29:52+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000218s ]
+[2019-12-16T11:29:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000344s ]
+[2019-12-16T11:29:52+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000389s ]
+[2019-12-16T11:29:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000473s ]
+[2019-12-16T11:29:52+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000333s ]
+[2019-12-16T11:29:52+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:30:07+08:00][sql] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:30:07+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000592s ]
+[2019-12-16T11:30:07+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000447s ]
+[2019-12-16T11:30:07+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000390s ]
+[2019-12-16T11:30:07+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000242s ]
+[2019-12-16T11:30:07+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000358s ]
+[2019-12-16T11:30:07+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000242s ]
+[2019-12-16T11:30:07+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:30:09+08:00][sql] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:30:09+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000572s ]
+[2019-12-16T11:30:09+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000320s ]
+[2019-12-16T11:30:09+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000567s ]
+[2019-12-16T11:30:09+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000278s ]
+[2019-12-16T11:30:09+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000501s ]
+[2019-12-16T11:30:09+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000241s ]
+[2019-12-16T11:30:09+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:30:51+08:00][sql] CONNECT:[ UseTime:0.000300s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:30:51+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000356s ]
+[2019-12-16T11:30:51+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000301s ]
+[2019-12-16T11:30:51+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000499s ]
+[2019-12-16T11:30:51+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000363s ]
+[2019-12-16T11:30:51+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000869s ]
+[2019-12-16T11:30:51+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000325s ]
+[2019-12-16T11:30:51+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:30:53+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:30:59+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:31:23+08:00][sql] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:31:23+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000578s ]
+[2019-12-16T11:31:23+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000344s ]
+[2019-12-16T11:31:23+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000458s ]
+[2019-12-16T11:31:23+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000298s ]
+[2019-12-16T11:31:23+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000445s ]
+[2019-12-16T11:31:23+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000340s ]
+[2019-12-16T11:31:23+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:31:27+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:31:38+08:00][sql] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:31:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000504s ]
+[2019-12-16T11:31:38+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[2019-12-16T11:31:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000490s ]
+[2019-12-16T11:31:38+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000229s ]
+[2019-12-16T11:31:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000550s ]
+[2019-12-16T11:31:38+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000395s ]
+[2019-12-16T11:31:38+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:31:40+08:00][sql] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:31:40+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000516s ]
+[2019-12-16T11:31:40+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000322s ]
+[2019-12-16T11:31:40+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000532s ]
+[2019-12-16T11:31:40+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000310s ]
+[2019-12-16T11:31:40+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000521s ]
+[2019-12-16T11:31:40+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000317s ]
+[2019-12-16T11:31:40+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:31:40+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:31:43+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:32:08+08:00][sql] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:32:08+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000614s ]
+[2019-12-16T11:32:08+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000354s ]
+[2019-12-16T11:32:08+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000595s ]
+[2019-12-16T11:32:08+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000390s ]
+[2019-12-16T11:32:08+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000511s ]
+[2019-12-16T11:32:08+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000375s ]
+[2019-12-16T11:32:08+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:32:10+08:00][sql] CONNECT:[ UseTime:0.000292s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:32:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000442s ]
+[2019-12-16T11:32:10+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000241s ]
+[2019-12-16T11:32:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000399s ]
+[2019-12-16T11:32:10+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000222s ]
+[2019-12-16T11:32:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000621s ]
+[2019-12-16T11:32:10+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000358s ]
+[2019-12-16T11:32:10+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T11:32:10+08:00][sql] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:32:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000479s ]
+[2019-12-16T11:32:10+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[2019-12-16T11:32:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000308s ]
+[2019-12-16T11:32:10+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000215s ]
+[2019-12-16T11:32:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000284s ]
+[2019-12-16T11:32:10+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000237s ]
+[2019-12-16T11:32:10+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:32:10+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:32:13+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:39:04+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:39:32+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:39:34+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:39:35+08:00][sql] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:39:35+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000725s ]
+[2019-12-16T11:39:35+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000209s ]
+[2019-12-16T11:39:35+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000659s ]
+[2019-12-16T11:39:35+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000237s ]
+[2019-12-16T11:39:35+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000327s ]
+[2019-12-16T11:39:35+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000206s ]
+[2019-12-16T11:39:35+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T11:39:36+08:00][sql] CONNECT:[ UseTime:0.000319s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:39:36+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000358s ]
+[2019-12-16T11:39:36+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000313s ]
+[2019-12-16T11:39:36+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000377s ]
+[2019-12-16T11:39:36+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[2019-12-16T11:39:36+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000470s ]
+[2019-12-16T11:39:36+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000334s ]
+[2019-12-16T11:39:36+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:39:36+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:39:46+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:40:33+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:40:46+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:42:02+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:42:33+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:42:46+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:56:15+08:00][sql] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T11:56:15+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000415s ]
+[2019-12-16T11:56:15+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000251s ]
+[2019-12-16T11:56:15+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000314s ]
+[2019-12-16T11:56:15+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000220s ]
+[2019-12-16T11:56:15+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000309s ]
+[2019-12-16T11:56:15+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000284s ]
+[2019-12-16T11:56:15+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T11:56:16+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:56:37+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:57:02+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T11:57:51+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T12:00:40+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T12:01:01+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T12:01:03+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T12:01:30+08:00][sql] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T12:01:30+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000522s ]
+[2019-12-16T12:01:30+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[2019-12-16T12:01:30+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000325s ]
+[2019-12-16T12:01:30+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000224s ]
+[2019-12-16T12:01:30+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000341s ]
+[2019-12-16T12:01:30+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000293s ]
+[2019-12-16T12:01:30+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T12:01:30+08:00][sql] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T12:01:30+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000429s ]
+[2019-12-16T12:01:30+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000236s ]
+[2019-12-16T12:01:30+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000324s ]
+[2019-12-16T12:01:30+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[2019-12-16T12:01:30+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000313s ]
+[2019-12-16T12:01:30+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000335s ]
+[2019-12-16T12:01:30+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T12:01:31+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T12:05:31+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T13:30:41+08:00][info] [ VIEW ] /yd/php/tp6.0/view/login/login.html [ array (
+) ]
+[2019-12-16T13:30:47+08:00][info] [ VIEW ] /yd/php/tp6.0/view/login/login.html [ array (
+) ]
+[2019-12-16T13:30:50+08:00][sql] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T13:30:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_user` [ RunTime:0.000489s ]
+[2019-12-16T13:30:50+08:00][sql] SELECT * FROM `demo_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000199s ]
+[2019-12-16T13:30:50+08:00][sql] CONNECT:[ UseTime:0.000295s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T13:30:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000386s ]
+[2019-12-16T13:30:50+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000371s ]
+[2019-12-16T13:30:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000533s ]
+[2019-12-16T13:30:50+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000244s ]
+[2019-12-16T13:30:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000523s ]
+[2019-12-16T13:30:50+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000868s ]
+[2019-12-16T13:30:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T13:30:52+08:00][sql] CONNECT:[ UseTime:0.000697s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T13:30:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000673s ]
+[2019-12-16T13:30:52+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000360s ]
+[2019-12-16T13:30:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000385s ]
+[2019-12-16T13:30:52+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2019-12-16T13:30:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000325s ]
+[2019-12-16T13:30:52+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000208s ]
+[2019-12-16T13:30:52+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T13:30:53+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T13:33:48+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T13:36:54+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:14:25+08:00][info] [ VIEW ] /yd/php/tp6.0/view/login/login.html [ array (
+) ]
+[2019-12-16T14:14:29+08:00][error] [2002]SQLSTATE[HY000] [2002] Connection refused
+[2019-12-16T14:14:34+08:00][error] [2002]SQLSTATE[HY000] [2002] Connection refused
+[2019-12-16T14:14:49+08:00][error] [2002]SQLSTATE[HY000] [2002] Connection refused[/yd/php/tp6.0/vendor/topthink/think-orm/src/db/PDOConnection.php:554]
+[2019-12-16T14:16:08+08:00][info] [ VIEW ] /yd/php/tp6.0/view/login/login.html [ array (
+) ]
+[2019-12-16T14:16:10+08:00][sql] CONNECT:[ UseTime:0.033570s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:16:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_user` [ RunTime:0.096310s ]
+[2019-12-16T14:16:10+08:00][sql] SELECT * FROM `demo_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001479s ]
+[2019-12-16T14:16:11+08:00][sql] CONNECT:[ UseTime:0.000280s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:16:11+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.035857s ]
+[2019-12-16T14:16:11+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.011388s ]
+[2019-12-16T14:16:11+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.007493s ]
+[2019-12-16T14:16:11+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000859s ]
+[2019-12-16T14:16:11+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.007483s ]
+[2019-12-16T14:16:11+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000976s ]
+[2019-12-16T14:16:11+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T14:16:17+08:00][sql] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:16:17+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000786s ]
+[2019-12-16T14:16:17+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000231s ]
+[2019-12-16T14:16:17+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000411s ]
+[2019-12-16T14:16:17+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000222s ]
+[2019-12-16T14:16:17+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000468s ]
+[2019-12-16T14:16:17+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000242s ]
+[2019-12-16T14:16:17+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T14:16:22+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:16:35+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:24:55+08:00][sql] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:24:55+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000729s ]
+[2019-12-16T14:24:55+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000315s ]
+[2019-12-16T14:24:55+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000504s ]
+[2019-12-16T14:24:55+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000331s ]
+[2019-12-16T14:24:55+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000552s ]
+[2019-12-16T14:24:55+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000395s ]
+[2019-12-16T14:24:55+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T14:24:56+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:27:58+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:28:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:32:45+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:32:58+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:33:00+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:33:03+08:00][sql] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:33:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000574s ]
+[2019-12-16T14:33:03+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000247s ]
+[2019-12-16T14:33:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000482s ]
+[2019-12-16T14:33:03+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000322s ]
+[2019-12-16T14:33:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000507s ]
+[2019-12-16T14:33:03+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000395s ]
+[2019-12-16T14:33:03+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T14:33:03+08:00][sql] CONNECT:[ UseTime:0.001032s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:33:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.001204s ]
+[2019-12-16T14:33:03+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000251s ]
+[2019-12-16T14:33:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000443s ]
+[2019-12-16T14:33:03+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000224s ]
+[2019-12-16T14:33:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000389s ]
+[2019-12-16T14:33:03+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000212s ]
+[2019-12-16T14:33:03+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T14:33:04+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:33:11+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:33:26+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:33:28+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:33:54+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:34:59+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:35:12+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:37:22+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:37:43+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:38:26+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:38:49+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:42:10+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:42:17+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:42:18+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:42:19+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:43:13+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:45:54+08:00][sql] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:45:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000526s ]
+[2019-12-16T14:45:54+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000301s ]
+[2019-12-16T14:45:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000478s ]
+[2019-12-16T14:45:54+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000673s ]
+[2019-12-16T14:45:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000694s ]
+[2019-12-16T14:45:54+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000271s ]
+[2019-12-16T14:45:54+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T14:45:54+08:00][sql] CONNECT:[ UseTime:0.000301s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:45:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000764s ]
+[2019-12-16T14:45:54+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000294s ]
+[2019-12-16T14:45:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000704s ]
+[2019-12-16T14:45:54+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000807s ]
+[2019-12-16T14:45:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000616s ]
+[2019-12-16T14:45:54+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000407s ]
+[2019-12-16T14:45:54+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T14:45:56+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:47:22+08:00][sql] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:47:22+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000888s ]
+[2019-12-16T14:47:22+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000339s ]
+[2019-12-16T14:47:22+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000491s ]
+[2019-12-16T14:47:22+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000381s ]
+[2019-12-16T14:47:22+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000721s ]
+[2019-12-16T14:47:22+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000384s ]
+[2019-12-16T14:47:22+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T14:47:22+08:00][sql] CONNECT:[ UseTime:0.000317s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:47:22+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000572s ]
+[2019-12-16T14:47:22+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000267s ]
+[2019-12-16T14:47:22+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000420s ]
+[2019-12-16T14:47:22+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000205s ]
+[2019-12-16T14:47:22+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000377s ]
+[2019-12-16T14:47:22+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000264s ]
+[2019-12-16T14:47:22+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T14:47:23+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:47:41+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:49:29+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:49:30+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:49:32+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:50:07+08:00][sql] CONNECT:[ UseTime:0.000379s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:50:07+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000528s ]
+[2019-12-16T14:50:07+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000260s ]
+[2019-12-16T14:50:07+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000483s ]
+[2019-12-16T14:50:07+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000291s ]
+[2019-12-16T14:50:07+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000418s ]
+[2019-12-16T14:50:07+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000310s ]
+[2019-12-16T14:50:07+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T14:51:49+08:00][sql] CONNECT:[ UseTime:0.000533s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T14:51:49+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000617s ]
+[2019-12-16T14:51:49+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000329s ]
+[2019-12-16T14:51:49+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000488s ]
+[2019-12-16T14:51:49+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000329s ]
+[2019-12-16T14:51:49+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000485s ]
+[2019-12-16T14:51:49+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000340s ]
+[2019-12-16T14:51:49+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T14:51:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:52:24+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:52:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:54:30+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:57:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T14:59:06+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:00:03+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:00:27+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:02:56+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:03:11+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:03:27+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:03:48+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:04:00+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:04:13+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:07:55+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:08:12+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:08:46+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:08:49+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:09:23+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:09:33+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:09:48+08:00][sql] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:09:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000660s ]
+[2019-12-16T15:09:48+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000370s ]
+[2019-12-16T15:09:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000549s ]
+[2019-12-16T15:09:48+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000303s ]
+[2019-12-16T15:09:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000578s ]
+[2019-12-16T15:09:48+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000416s ]
+[2019-12-16T15:09:48+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T15:09:48+08:00][sql] CONNECT:[ UseTime:0.000303s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:09:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000505s ]
+[2019-12-16T15:09:48+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[2019-12-16T15:09:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000599s ]
+[2019-12-16T15:09:48+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000265s ]
+[2019-12-16T15:09:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.001196s ]
+[2019-12-16T15:09:48+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000985s ]
+[2019-12-16T15:09:48+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T15:09:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:10:24+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:10:38+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:13:15+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:13:20+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:14:03+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:14:24+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:14:26+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:14:44+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:16:05+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:18:55+08:00][sql] CONNECT:[ UseTime:0.000324s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:18:55+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000522s ]
+[2019-12-16T15:18:55+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2019-12-16T15:18:55+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000838s ]
+[2019-12-16T15:18:55+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000411s ]
+[2019-12-16T15:18:55+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000842s ]
+[2019-12-16T15:18:55+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000389s ]
+[2019-12-16T15:18:55+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T15:18:56+08:00][sql] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:18:56+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000744s ]
+[2019-12-16T15:18:56+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000295s ]
+[2019-12-16T15:18:56+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000563s ]
+[2019-12-16T15:18:56+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2019-12-16T15:18:56+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000392s ]
+[2019-12-16T15:18:56+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000245s ]
+[2019-12-16T15:18:56+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T15:18:57+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:20:34+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:22:34+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:28:24+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:28:34+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:28:34+08:00][sql] CONNECT:[ UseTime:0.000318s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:28:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000441s ]
+[2019-12-16T15:28:34+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000313s ]
+[2019-12-16T15:28:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000544s ]
+[2019-12-16T15:28:34+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000219s ]
+[2019-12-16T15:28:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000387s ]
+[2019-12-16T15:28:34+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000221s ]
+[2019-12-16T15:28:34+08:00][sql] CONNECT:[ UseTime:0.000307s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:28:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000804s ]
+[2019-12-16T15:28:34+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000297s ]
+[2019-12-16T15:28:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000522s ]
+[2019-12-16T15:28:34+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000175s ]
+[2019-12-16T15:28:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000401s ]
+[2019-12-16T15:28:34+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000214s ]
+[2019-12-16T15:28:34+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:28:43+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:28:43+08:00][sql] CONNECT:[ UseTime:0.000327s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:28:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000424s ]
+[2019-12-16T15:28:43+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[2019-12-16T15:28:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000320s ]
+[2019-12-16T15:28:43+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[2019-12-16T15:28:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000307s ]
+[2019-12-16T15:28:43+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000253s ]
+[2019-12-16T15:28:43+08:00][sql] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:28:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000536s ]
+[2019-12-16T15:28:43+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000338s ]
+[2019-12-16T15:28:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.001022s ]
+[2019-12-16T15:28:43+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000399s ]
+[2019-12-16T15:28:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000708s ]
+[2019-12-16T15:28:43+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000322s ]
+[2019-12-16T15:28:43+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:31:37+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:31:37+08:00][sql] CONNECT:[ UseTime:0.000308s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:31:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000422s ]
+[2019-12-16T15:31:37+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000205s ]
+[2019-12-16T15:31:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000367s ]
+[2019-12-16T15:31:37+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000219s ]
+[2019-12-16T15:31:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000307s ]
+[2019-12-16T15:31:37+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000283s ]
+[2019-12-16T15:31:37+08:00][sql] CONNECT:[ UseTime:0.000310s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:31:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000643s ]
+[2019-12-16T15:31:37+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000334s ]
+[2019-12-16T15:31:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000258s ]
+[2019-12-16T15:31:37+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[2019-12-16T15:31:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000595s ]
+[2019-12-16T15:31:37+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.001119s ]
+[2019-12-16T15:31:37+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:32:31+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:32:31+08:00][sql] CONNECT:[ UseTime:0.000282s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:32:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000397s ]
+[2019-12-16T15:32:31+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000231s ]
+[2019-12-16T15:32:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000325s ]
+[2019-12-16T15:32:31+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[2019-12-16T15:32:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000287s ]
+[2019-12-16T15:32:31+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000244s ]
+[2019-12-16T15:32:31+08:00][sql] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:32:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000374s ]
+[2019-12-16T15:32:31+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[2019-12-16T15:32:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000322s ]
+[2019-12-16T15:32:31+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[2019-12-16T15:32:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000317s ]
+[2019-12-16T15:32:31+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000206s ]
+[2019-12-16T15:32:31+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:33:41+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:33:42+08:00][sql] CONNECT:[ UseTime:0.000307s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:33:42+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000360s ]
+[2019-12-16T15:33:42+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000312s ]
+[2019-12-16T15:33:42+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000334s ]
+[2019-12-16T15:33:42+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000421s ]
+[2019-12-16T15:33:42+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000576s ]
+[2019-12-16T15:33:42+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000284s ]
+[2019-12-16T15:33:42+08:00][sql] CONNECT:[ UseTime:0.000304s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:33:42+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000454s ]
+[2019-12-16T15:33:42+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000282s ]
+[2019-12-16T15:33:42+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000424s ]
+[2019-12-16T15:33:42+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000237s ]
+[2019-12-16T15:33:42+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000368s ]
+[2019-12-16T15:33:42+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000359s ]
+[2019-12-16T15:33:42+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:34:30+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:35:39+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:37:36+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:38:08+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:39:37+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:40:15+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:40:45+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:41:12+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:41:41+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:41:54+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:42:12+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:43:00+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:43:25+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:44:04+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:44:28+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:45:43+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:45:55+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:46:18+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:46:27+08:00][sql] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:46:27+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000388s ]
+[2019-12-16T15:46:27+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000232s ]
+[2019-12-16T15:46:27+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000320s ]
+[2019-12-16T15:46:27+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[2019-12-16T15:46:27+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000311s ]
+[2019-12-16T15:46:27+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000205s ]
+[2019-12-16T15:46:27+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T15:46:29+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:46:29+08:00][sql] CONNECT:[ UseTime:0.000300s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:46:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000561s ]
+[2019-12-16T15:46:29+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[2019-12-16T15:46:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000427s ]
+[2019-12-16T15:46:29+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[2019-12-16T15:46:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000328s ]
+[2019-12-16T15:46:29+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000248s ]
+[2019-12-16T15:46:29+08:00][error] [0]Call to a member function toArray() on array[/yd/php/tp6.0/app/controller/Auth.php:58]
+[2019-12-16T15:46:43+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:46:43+08:00][sql] CONNECT:[ UseTime:0.000300s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:46:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000417s ]
+[2019-12-16T15:46:43+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000202s ]
+[2019-12-16T15:46:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000298s ]
+[2019-12-16T15:46:43+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[2019-12-16T15:46:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000320s ]
+[2019-12-16T15:46:43+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000245s ]
+[2019-12-16T15:46:43+08:00][sql] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:46:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000353s ]
+[2019-12-16T15:46:43+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000244s ]
+[2019-12-16T15:46:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000355s ]
+[2019-12-16T15:46:43+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000228s ]
+[2019-12-16T15:46:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000331s ]
+[2019-12-16T15:46:43+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000216s ]
+[2019-12-16T15:46:43+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:47:04+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:47:04+08:00][sql] CONNECT:[ UseTime:0.000754s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:47:04+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.001266s ]
+[2019-12-16T15:47:04+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000503s ]
+[2019-12-16T15:47:04+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000598s ]
+[2019-12-16T15:47:04+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000242s ]
+[2019-12-16T15:47:04+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000311s ]
+[2019-12-16T15:47:04+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000217s ]
+[2019-12-16T15:47:04+08:00][sql] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:47:04+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000972s ]
+[2019-12-16T15:47:04+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000589s ]
+[2019-12-16T15:47:04+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000649s ]
+[2019-12-16T15:47:04+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000353s ]
+[2019-12-16T15:47:04+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000836s ]
+[2019-12-16T15:47:04+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000907s ]
+[2019-12-16T15:47:04+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:49:37+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:49:37+08:00][sql] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:49:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000631s ]
+[2019-12-16T15:49:37+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000245s ]
+[2019-12-16T15:49:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000848s ]
+[2019-12-16T15:49:37+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000472s ]
+[2019-12-16T15:49:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000582s ]
+[2019-12-16T15:49:37+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000292s ]
+[2019-12-16T15:49:37+08:00][sql] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:49:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000500s ]
+[2019-12-16T15:49:37+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000255s ]
+[2019-12-16T15:49:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000418s ]
+[2019-12-16T15:49:37+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000444s ]
+[2019-12-16T15:49:37+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000772s ]
+[2019-12-16T15:49:37+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000518s ]
+[2019-12-16T15:49:37+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:49:53+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:49:53+08:00][sql] CONNECT:[ UseTime:0.000299s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:49:53+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000387s ]
+[2019-12-16T15:49:53+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[2019-12-16T15:49:53+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000302s ]
+[2019-12-16T15:49:53+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000239s ]
+[2019-12-16T15:49:53+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000472s ]
+[2019-12-16T15:49:53+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000255s ]
+[2019-12-16T15:49:53+08:00][sql] CONNECT:[ UseTime:0.000326s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:49:53+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000635s ]
+[2019-12-16T15:49:53+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000397s ]
+[2019-12-16T15:49:53+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000516s ]
+[2019-12-16T15:49:53+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000227s ]
+[2019-12-16T15:49:53+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000320s ]
+[2019-12-16T15:49:53+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000445s ]
+[2019-12-16T15:49:53+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:50:34+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:50:34+08:00][sql] CONNECT:[ UseTime:0.000291s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:50:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000355s ]
+[2019-12-16T15:50:34+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000275s ]
+[2019-12-16T15:50:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000354s ]
+[2019-12-16T15:50:34+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000241s ]
+[2019-12-16T15:50:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000432s ]
+[2019-12-16T15:50:34+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000399s ]
+[2019-12-16T15:50:34+08:00][sql] CONNECT:[ UseTime:0.000309s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:50:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000418s ]
+[2019-12-16T15:50:34+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000226s ]
+[2019-12-16T15:50:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000319s ]
+[2019-12-16T15:50:34+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000209s ]
+[2019-12-16T15:50:34+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000388s ]
+[2019-12-16T15:50:34+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000373s ]
+[2019-12-16T15:50:34+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:51:15+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:51:15+08:00][sql] CONNECT:[ UseTime:0.000344s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:51:15+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000427s ]
+[2019-12-16T15:51:15+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000321s ]
+[2019-12-16T15:51:15+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000347s ]
+[2019-12-16T15:51:15+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[2019-12-16T15:51:15+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000393s ]
+[2019-12-16T15:51:15+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000327s ]
+[2019-12-16T15:51:15+08:00][sql] CONNECT:[ UseTime:0.000321s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:51:15+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000538s ]
+[2019-12-16T15:51:15+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000359s ]
+[2019-12-16T15:51:15+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000621s ]
+[2019-12-16T15:51:15+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000947s ]
+[2019-12-16T15:51:15+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000838s ]
+[2019-12-16T15:51:15+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.001290s ]
+[2019-12-16T15:51:15+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:51:46+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:51:47+08:00][sql] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:51:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000546s ]
+[2019-12-16T15:51:47+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[2019-12-16T15:51:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000419s ]
+[2019-12-16T15:51:47+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000223s ]
+[2019-12-16T15:51:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000296s ]
+[2019-12-16T15:51:47+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000275s ]
+[2019-12-16T15:51:47+08:00][sql] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:51:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000683s ]
+[2019-12-16T15:51:47+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000283s ]
+[2019-12-16T15:51:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000600s ]
+[2019-12-16T15:51:47+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000240s ]
+[2019-12-16T15:51:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000372s ]
+[2019-12-16T15:51:47+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000258s ]
+[2019-12-16T15:51:47+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:52:05+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:52:05+08:00][sql] CONNECT:[ UseTime:0.000440s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:52:05+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000383s ]
+[2019-12-16T15:52:05+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000203s ]
+[2019-12-16T15:52:05+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000322s ]
+[2019-12-16T15:52:05+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[2019-12-16T15:52:05+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000331s ]
+[2019-12-16T15:52:05+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000254s ]
+[2019-12-16T15:52:05+08:00][sql] CONNECT:[ UseTime:0.000318s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:52:05+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000595s ]
+[2019-12-16T15:52:05+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000240s ]
+[2019-12-16T15:52:05+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000462s ]
+[2019-12-16T15:52:05+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000374s ]
+[2019-12-16T15:52:05+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000629s ]
+[2019-12-16T15:52:05+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000391s ]
+[2019-12-16T15:52:05+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:52:41+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:52:41+08:00][sql] CONNECT:[ UseTime:0.000279s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:52:41+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000570s ]
+[2019-12-16T15:52:41+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000250s ]
+[2019-12-16T15:52:41+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000470s ]
+[2019-12-16T15:52:41+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2019-12-16T15:52:41+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000295s ]
+[2019-12-16T15:52:41+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000193s ]
+[2019-12-16T15:52:41+08:00][sql] CONNECT:[ UseTime:0.000297s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:52:41+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000369s ]
+[2019-12-16T15:52:41+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2019-12-16T15:52:41+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000339s ]
+[2019-12-16T15:52:41+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000240s ]
+[2019-12-16T15:52:41+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000324s ]
+[2019-12-16T15:52:41+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000313s ]
+[2019-12-16T15:52:41+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:53:38+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:53:38+08:00][sql] CONNECT:[ UseTime:0.000331s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:53:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000471s ]
+[2019-12-16T15:53:38+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000238s ]
+[2019-12-16T15:53:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000323s ]
+[2019-12-16T15:53:38+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000219s ]
+[2019-12-16T15:53:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000447s ]
+[2019-12-16T15:53:38+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000214s ]
+[2019-12-16T15:53:38+08:00][sql] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:53:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000578s ]
+[2019-12-16T15:53:38+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000342s ]
+[2019-12-16T15:53:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000498s ]
+[2019-12-16T15:53:38+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[2019-12-16T15:53:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.001251s ]
+[2019-12-16T15:53:38+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000487s ]
+[2019-12-16T15:53:38+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T15:53:47+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T15:53:47+08:00][sql] CONNECT:[ UseTime:0.000300s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:53:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000381s ]
+[2019-12-16T15:53:47+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[2019-12-16T15:53:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000398s ]
+[2019-12-16T15:53:47+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[2019-12-16T15:53:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000302s ]
+[2019-12-16T15:53:47+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000248s ]
+[2019-12-16T15:53:47+08:00][sql] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T15:53:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000593s ]
+[2019-12-16T15:53:47+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000274s ]
+[2019-12-16T15:53:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000949s ]
+[2019-12-16T15:53:47+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000305s ]
+[2019-12-16T15:53:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000546s ]
+[2019-12-16T15:53:47+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000554s ]
+[2019-12-16T15:53:47+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T16:15:02+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T16:15:03+08:00][sql] CONNECT:[ UseTime:0.000296s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:15:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000641s ]
+[2019-12-16T16:15:03+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000207s ]
+[2019-12-16T16:15:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000324s ]
+[2019-12-16T16:15:03+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000281s ]
+[2019-12-16T16:15:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000513s ]
+[2019-12-16T16:15:03+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000225s ]
+[2019-12-16T16:15:03+08:00][sql] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:15:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000356s ]
+[2019-12-16T16:15:03+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2019-12-16T16:15:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000287s ]
+[2019-12-16T16:15:03+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000234s ]
+[2019-12-16T16:15:03+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000463s ]
+[2019-12-16T16:15:03+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000241s ]
+[2019-12-16T16:15:03+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T16:18:54+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T16:18:54+08:00][sql] CONNECT:[ UseTime:0.000308s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:18:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000359s ]
+[2019-12-16T16:18:54+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000235s ]
+[2019-12-16T16:18:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000370s ]
+[2019-12-16T16:18:54+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[2019-12-16T16:18:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000619s ]
+[2019-12-16T16:18:54+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000274s ]
+[2019-12-16T16:18:55+08:00][sql] CONNECT:[ UseTime:0.000295s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:18:55+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000357s ]
+[2019-12-16T16:18:55+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2019-12-16T16:18:55+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000320s ]
+[2019-12-16T16:18:55+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000175s ]
+[2019-12-16T16:18:55+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000372s ]
+[2019-12-16T16:18:55+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000192s ]
+[2019-12-16T16:18:55+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T16:20:48+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T16:20:49+08:00][sql] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:20:49+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000375s ]
+[2019-12-16T16:20:49+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000200s ]
+[2019-12-16T16:20:49+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000342s ]
+[2019-12-16T16:20:49+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[2019-12-16T16:20:49+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000416s ]
+[2019-12-16T16:20:49+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000224s ]
+[2019-12-16T16:20:49+08:00][sql] CONNECT:[ UseTime:0.000775s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:20:49+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000736s ]
+[2019-12-16T16:20:49+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[2019-12-16T16:20:49+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000433s ]
+[2019-12-16T16:20:49+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000341s ]
+[2019-12-16T16:20:49+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000492s ]
+[2019-12-16T16:20:49+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000397s ]
+[2019-12-16T16:20:49+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T16:29:11+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T16:29:11+08:00][sql] CONNECT:[ UseTime:0.000473s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:29:11+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000420s ]
+[2019-12-16T16:29:11+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000244s ]
+[2019-12-16T16:29:11+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000375s ]
+[2019-12-16T16:29:11+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[2019-12-16T16:29:11+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000404s ]
+[2019-12-16T16:29:11+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000249s ]
+[2019-12-16T16:29:11+08:00][sql] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:29:11+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000358s ]
+[2019-12-16T16:29:11+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000254s ]
+[2019-12-16T16:29:11+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000340s ]
+[2019-12-16T16:29:11+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[2019-12-16T16:29:11+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000378s ]
+[2019-12-16T16:29:11+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000200s ]
+[2019-12-16T16:29:11+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T16:30:31+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T16:30:31+08:00][sql] CONNECT:[ UseTime:0.000300s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:30:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000355s ]
+[2019-12-16T16:30:31+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[2019-12-16T16:30:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000364s ]
+[2019-12-16T16:30:31+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[2019-12-16T16:30:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000379s ]
+[2019-12-16T16:30:31+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000329s ]
+[2019-12-16T16:30:31+08:00][sql] CONNECT:[ UseTime:0.000316s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:30:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000359s ]
+[2019-12-16T16:30:31+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2019-12-16T16:30:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000320s ]
+[2019-12-16T16:30:31+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000216s ]
+[2019-12-16T16:30:31+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000409s ]
+[2019-12-16T16:30:31+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000303s ]
+[2019-12-16T16:30:31+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T16:30:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T16:30:50+08:00][sql] CONNECT:[ UseTime:0.000551s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:30:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000421s ]
+[2019-12-16T16:30:50+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[2019-12-16T16:30:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000359s ]
+[2019-12-16T16:30:50+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[2019-12-16T16:30:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000392s ]
+[2019-12-16T16:30:50+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000239s ]
+[2019-12-16T16:30:50+08:00][sql] CONNECT:[ UseTime:0.000287s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:30:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000417s ]
+[2019-12-16T16:30:50+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[2019-12-16T16:30:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000781s ]
+[2019-12-16T16:30:50+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[2019-12-16T16:30:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000845s ]
+[2019-12-16T16:30:50+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000265s ]
+[2019-12-16T16:30:50+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T16:52:05+08:00][sql] CONNECT:[ UseTime:0.006071s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:52:05+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.052648s ]
+[2019-12-16T16:52:05+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.049217s ]
+[2019-12-16T16:52:05+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.021198s ]
+[2019-12-16T16:52:05+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000842s ]
+[2019-12-16T16:52:05+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.066439s ]
+[2019-12-16T16:52:05+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001260s ]
+[2019-12-16T16:52:05+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:55:10+08:00][sql] CONNECT:[ UseTime:0.000409s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:55:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000520s ]
+[2019-12-16T16:55:10+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000232s ]
+[2019-12-16T16:55:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000425s ]
+[2019-12-16T16:55:10+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000280s ]
+[2019-12-16T16:55:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000761s ]
+[2019-12-16T16:55:10+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000243s ]
+[2019-12-16T16:55:10+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:55:14+08:00][sql] CONNECT:[ UseTime:0.000344s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:55:14+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000617s ]
+[2019-12-16T16:55:14+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000235s ]
+[2019-12-16T16:55:14+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000660s ]
+[2019-12-16T16:55:14+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000418s ]
+[2019-12-16T16:55:14+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000847s ]
+[2019-12-16T16:55:14+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.001323s ]
+[2019-12-16T16:55:14+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T16:55:19+08:00][sql] CONNECT:[ UseTime:0.000247s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:55:19+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000491s ]
+[2019-12-16T16:55:19+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000221s ]
+[2019-12-16T16:55:19+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000388s ]
+[2019-12-16T16:55:19+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000201s ]
+[2019-12-16T16:55:19+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000431s ]
+[2019-12-16T16:55:19+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000243s ]
+[2019-12-16T16:55:19+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:55:48+08:00][sql] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:55:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000620s ]
+[2019-12-16T16:55:48+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000412s ]
+[2019-12-16T16:55:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000549s ]
+[2019-12-16T16:55:48+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[2019-12-16T16:55:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000516s ]
+[2019-12-16T16:55:48+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000321s ]
+[2019-12-16T16:55:48+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:55:52+08:00][sql] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:55:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000624s ]
+[2019-12-16T16:55:52+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000337s ]
+[2019-12-16T16:55:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000474s ]
+[2019-12-16T16:55:52+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[2019-12-16T16:55:52+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000411s ]
+[2019-12-16T16:55:52+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000269s ]
+[2019-12-16T16:55:52+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:56:07+08:00][sql] CONNECT:[ UseTime:0.000543s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:56:07+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000569s ]
+[2019-12-16T16:56:07+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000309s ]
+[2019-12-16T16:56:07+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000506s ]
+[2019-12-16T16:56:07+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000299s ]
+[2019-12-16T16:56:07+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000484s ]
+[2019-12-16T16:56:07+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000294s ]
+[2019-12-16T16:56:07+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:56:10+08:00][sql] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:56:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000605s ]
+[2019-12-16T16:56:10+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[2019-12-16T16:56:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000502s ]
+[2019-12-16T16:56:10+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[2019-12-16T16:56:10+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000508s ]
+[2019-12-16T16:56:10+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000343s ]
+[2019-12-16T16:56:10+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:56:26+08:00][sql] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:56:26+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000712s ]
+[2019-12-16T16:56:26+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000348s ]
+[2019-12-16T16:56:26+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000608s ]
+[2019-12-16T16:56:26+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000336s ]
+[2019-12-16T16:56:26+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000509s ]
+[2019-12-16T16:56:26+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000394s ]
+[2019-12-16T16:56:26+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:56:29+08:00][sql] CONNECT:[ UseTime:0.000439s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:56:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000467s ]
+[2019-12-16T16:56:29+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[2019-12-16T16:56:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000417s ]
+[2019-12-16T16:56:29+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000328s ]
+[2019-12-16T16:56:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000413s ]
+[2019-12-16T16:56:29+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000360s ]
+[2019-12-16T16:56:29+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:56:46+08:00][sql] CONNECT:[ UseTime:0.000453s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:56:46+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000734s ]
+[2019-12-16T16:56:46+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000253s ]
+[2019-12-16T16:56:46+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000388s ]
+[2019-12-16T16:56:46+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2019-12-16T16:56:46+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000352s ]
+[2019-12-16T16:56:46+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000199s ]
+[2019-12-16T16:56:46+08:00][info] [ VIEW ] /yd/php/tp6.0/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'user_name',
+) ]
+[2019-12-16T16:56:46+08:00][sql] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:56:46+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000564s ]
+[2019-12-16T16:56:46+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000331s ]
+[2019-12-16T16:56:46+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000368s ]
+[2019-12-16T16:56:46+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000240s ]
+[2019-12-16T16:56:46+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000613s ]
+[2019-12-16T16:56:46+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000356s ]
+[2019-12-16T16:56:46+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:56:50+08:00][sql] CONNECT:[ UseTime:0.000280s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:56:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000510s ]
+[2019-12-16T16:56:50+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2019-12-16T16:56:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000428s ]
+[2019-12-16T16:56:50+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000215s ]
+[2019-12-16T16:56:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000483s ]
+[2019-12-16T16:56:50+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000232s ]
+[2019-12-16T16:56:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:59:43+08:00][sql] CONNECT:[ UseTime:0.000301s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:59:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000475s ]
+[2019-12-16T16:59:43+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000245s ]
+[2019-12-16T16:59:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000651s ]
+[2019-12-16T16:59:43+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000642s ]
+[2019-12-16T16:59:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000494s ]
+[2019-12-16T16:59:43+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000254s ]
+[2019-12-16T16:59:43+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:59:46+08:00][sql] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:59:46+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000572s ]
+[2019-12-16T16:59:46+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000397s ]
+[2019-12-16T16:59:46+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.001286s ]
+[2019-12-16T16:59:46+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000373s ]
+[2019-12-16T16:59:46+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000686s ]
+[2019-12-16T16:59:46+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000450s ]
+[2019-12-16T16:59:46+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T16:59:54+08:00][sql] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T16:59:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000751s ]
+[2019-12-16T16:59:54+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000547s ]
+[2019-12-16T16:59:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000446s ]
+[2019-12-16T16:59:54+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000473s ]
+[2019-12-16T16:59:54+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000577s ]
+[2019-12-16T16:59:54+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000254s ]
+[2019-12-16T16:59:54+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T17:00:00+08:00][sql] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:00:00+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000507s ]
+[2019-12-16T17:00:00+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000206s ]
+[2019-12-16T17:00:00+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000385s ]
+[2019-12-16T17:00:00+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[2019-12-16T17:00:00+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000615s ]
+[2019-12-16T17:00:00+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000292s ]
+[2019-12-16T17:00:00+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T17:00:03+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:01:19+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:01:20+08:00][sql] CONNECT:[ UseTime:0.000294s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:01:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000359s ]
+[2019-12-16T17:01:20+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[2019-12-16T17:01:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000314s ]
+[2019-12-16T17:01:20+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000218s ]
+[2019-12-16T17:01:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000324s ]
+[2019-12-16T17:01:20+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000343s ]
+[2019-12-16T17:01:20+08:00][sql] CONNECT:[ UseTime:0.000304s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:01:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000490s ]
+[2019-12-16T17:01:20+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000309s ]
+[2019-12-16T17:01:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000326s ]
+[2019-12-16T17:01:20+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000232s ]
+[2019-12-16T17:01:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000302s ]
+[2019-12-16T17:01:20+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000208s ]
+[2019-12-16T17:01:20+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T17:01:47+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:01:47+08:00][sql] CONNECT:[ UseTime:0.000309s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:01:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000450s ]
+[2019-12-16T17:01:47+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000359s ]
+[2019-12-16T17:01:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000446s ]
+[2019-12-16T17:01:47+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000253s ]
+[2019-12-16T17:01:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000578s ]
+[2019-12-16T17:01:47+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000292s ]
+[2019-12-16T17:01:47+08:00][sql] CONNECT:[ UseTime:0.000301s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:01:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000422s ]
+[2019-12-16T17:01:47+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000232s ]
+[2019-12-16T17:01:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000523s ]
+[2019-12-16T17:01:47+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000282s ]
+[2019-12-16T17:01:47+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000501s ]
+[2019-12-16T17:01:47+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000354s ]
+[2019-12-16T17:01:47+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T17:01:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:01:50+08:00][sql] CONNECT:[ UseTime:0.000364s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:01:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000452s ]
+[2019-12-16T17:01:50+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000249s ]
+[2019-12-16T17:01:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000438s ]
+[2019-12-16T17:01:50+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[2019-12-16T17:01:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000477s ]
+[2019-12-16T17:01:50+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000267s ]
+[2019-12-16T17:01:50+08:00][sql] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:01:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000428s ]
+[2019-12-16T17:01:50+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000213s ]
+[2019-12-16T17:01:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000361s ]
+[2019-12-16T17:01:50+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2019-12-16T17:01:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000339s ]
+[2019-12-16T17:01:50+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000279s ]
+[2019-12-16T17:01:50+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T17:02:29+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:02:29+08:00][sql] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:02:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000840s ]
+[2019-12-16T17:02:29+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000273s ]
+[2019-12-16T17:02:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000352s ]
+[2019-12-16T17:02:29+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000310s ]
+[2019-12-16T17:02:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000605s ]
+[2019-12-16T17:02:29+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000337s ]
+[2019-12-16T17:02:29+08:00][sql] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:02:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000932s ]
+[2019-12-16T17:02:29+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000451s ]
+[2019-12-16T17:02:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000664s ]
+[2019-12-16T17:02:29+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000301s ]
+[2019-12-16T17:02:29+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000455s ]
+[2019-12-16T17:02:29+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000388s ]
+[2019-12-16T17:02:29+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T17:02:50+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:02:50+08:00][sql] CONNECT:[ UseTime:0.000922s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:02:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000475s ]
+[2019-12-16T17:02:50+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000231s ]
+[2019-12-16T17:02:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000366s ]
+[2019-12-16T17:02:50+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000229s ]
+[2019-12-16T17:02:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000971s ]
+[2019-12-16T17:02:50+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.003268s ]
+[2019-12-16T17:02:50+08:00][sql] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:02:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000523s ]
+[2019-12-16T17:02:50+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000312s ]
+[2019-12-16T17:02:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000385s ]
+[2019-12-16T17:02:50+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000283s ]
+[2019-12-16T17:02:50+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000402s ]
+[2019-12-16T17:02:50+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000366s ]
+[2019-12-16T17:02:50+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T17:03:48+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:06:38+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:06:38+08:00][sql] CONNECT:[ UseTime:0.000430s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:06:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000427s ]
+[2019-12-16T17:06:38+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000239s ]
+[2019-12-16T17:06:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000401s ]
+[2019-12-16T17:06:38+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000266s ]
+[2019-12-16T17:06:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000494s ]
+[2019-12-16T17:06:38+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000415s ]
+[2019-12-16T17:06:38+08:00][sql] CONNECT:[ UseTime:0.000296s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:06:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000403s ]
+[2019-12-16T17:06:38+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2019-12-16T17:06:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000315s ]
+[2019-12-16T17:06:38+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000219s ]
+[2019-12-16T17:06:38+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000339s ]
+[2019-12-16T17:06:38+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000215s ]
+[2019-12-16T17:06:38+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T17:06:41+08:00][sql] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:06:41+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000442s ]
+[2019-12-16T17:06:41+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000262s ]
+[2019-12-16T17:06:41+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000435s ]
+[2019-12-16T17:06:41+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000303s ]
+[2019-12-16T17:06:41+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000397s ]
+[2019-12-16T17:06:41+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000304s ]
+[2019-12-16T17:06:41+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/menu.html [ array (
+  0 => 'menus',
+) ]
+[2019-12-16T17:06:43+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:06:43+08:00][sql] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:06:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000595s ]
+[2019-12-16T17:06:43+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000216s ]
+[2019-12-16T17:06:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000338s ]
+[2019-12-16T17:06:43+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[2019-12-16T17:06:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000310s ]
+[2019-12-16T17:06:43+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000208s ]
+[2019-12-16T17:06:44+08:00][sql] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:06:44+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000417s ]
+[2019-12-16T17:06:44+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000204s ]
+[2019-12-16T17:06:44+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000382s ]
+[2019-12-16T17:06:44+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[2019-12-16T17:06:44+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000307s ]
+[2019-12-16T17:06:44+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000212s ]
+[2019-12-16T17:06:44+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T17:06:47+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:06:48+08:00][sql] CONNECT:[ UseTime:0.000565s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:06:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000520s ]
+[2019-12-16T17:06:48+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000229s ]
+[2019-12-16T17:06:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000379s ]
+[2019-12-16T17:06:48+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000204s ]
+[2019-12-16T17:06:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000349s ]
+[2019-12-16T17:06:48+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000235s ]
+[2019-12-16T17:06:48+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:06:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000461s ]
+[2019-12-16T17:06:48+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000332s ]
+[2019-12-16T17:06:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000448s ]
+[2019-12-16T17:06:48+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000355s ]
+[2019-12-16T17:06:48+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000499s ]
+[2019-12-16T17:06:48+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000517s ]
+[2019-12-16T17:06:48+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T17:07:20+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:07:20+08:00][sql] CONNECT:[ UseTime:0.000572s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:07:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.001190s ]
+[2019-12-16T17:07:20+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000415s ]
+[2019-12-16T17:07:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000376s ]
+[2019-12-16T17:07:20+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000235s ]
+[2019-12-16T17:07:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000386s ]
+[2019-12-16T17:07:20+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000234s ]
+[2019-12-16T17:07:20+08:00][sql] CONNECT:[ UseTime:0.000318s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:07:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000545s ]
+[2019-12-16T17:07:20+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000324s ]
+[2019-12-16T17:07:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000364s ]
+[2019-12-16T17:07:20+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000227s ]
+[2019-12-16T17:07:20+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000351s ]
+[2019-12-16T17:07:20+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000244s ]
+[2019-12-16T17:07:20+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T17:12:32+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:12:32+08:00][sql] CONNECT:[ UseTime:0.000301s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:12:32+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000384s ]
+[2019-12-16T17:12:32+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000306s ]
+[2019-12-16T17:12:32+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000453s ]
+[2019-12-16T17:12:32+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000216s ]
+[2019-12-16T17:12:32+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000306s ]
+[2019-12-16T17:12:32+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000246s ]
+[2019-12-16T17:12:32+08:00][sql] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:12:32+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000468s ]
+[2019-12-16T17:12:32+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000246s ]
+[2019-12-16T17:12:32+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000323s ]
+[2019-12-16T17:12:32+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000172s ]
+[2019-12-16T17:12:32+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000388s ]
+[2019-12-16T17:12:32+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000288s ]
+[2019-12-16T17:12:32+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
+[2019-12-16T17:17:43+08:00][info] [ VIEW ] /yd/php/tp6.0/view/auth/form.html [ array (
+) ]
+[2019-12-16T17:17:43+08:00][sql] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:17:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000589s ]
+[2019-12-16T17:17:43+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000334s ]
+[2019-12-16T17:17:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000403s ]
+[2019-12-16T17:17:43+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000220s ]
+[2019-12-16T17:17:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000315s ]
+[2019-12-16T17:17:43+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000212s ]
+[2019-12-16T17:17:43+08:00][sql] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=demo;charset=utf8
+[2019-12-16T17:17:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group_access` [ RunTime:0.000914s ]
+[2019-12-16T17:17:43+08:00][sql] SELECT `group_id` FROM `demo_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000339s ]
+[2019-12-16T17:17:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_group` [ RunTime:0.000397s ]
+[2019-12-16T17:17:43+08:00][sql] SELECT `rules` FROM `demo_auth_group` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2019-12-16T17:17:43+08:00][sql] SHOW FULL COLUMNS FROM `demo_auth_rule` [ RunTime:0.000430s ]
+[2019-12-16T17:17:43+08:00][sql] SELECT * FROM `demo_auth_rule` WHERE  `id` IN (1,2,3,4,5)  AND `type` = 1 [ RunTime:0.000259s ]
+[2019-12-16T17:17:43+08:00][error] [0]variable type error： array[/yd/php/tp6.0/vendor/topthink/framework/src/think/Response.php:391]
