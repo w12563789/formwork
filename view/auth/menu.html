@@ -20,7 +20,12 @@
             <div class="layui-btn-group">
                 <button class="layui-btn" id="btn-expand">全部展开</button>
                 <button class="layui-btn" id="btn-fold">全部折叠</button>
-                <button class="layui-btn" id="btn-add">添加权限</button>
+                {foreach $buttons as $button}
+                    {if $button.title == '删除'}
+                        <button class="layui-btn" id="btn-add">添加权限</button>
+                    {/if}
+                {/foreach}
+
             </div>
             <table id="munu-table" class="layui-table" lay-filter="munu-table"></table>
         </div>
@@ -28,8 +33,15 @@
 </div>
 <!-- 操作列 -->
 <script type="text/html" id="auth-state">
-    <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="edit">修改</a>
-    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+
+    {foreach $buttons as $button}
+        {if $button.title == '修改'}
+            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="edit">修改</a>
+        {/if}
+        {if $button.title == '删除'}
+            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+        {/if}
+    {/foreach}
 </script>
 
 <script src="__static__/lib/layui-v2.5.4/layui.js" charset="utf-8"></script>
@@ -56,7 +68,6 @@
                 {type: 'numbers'},
                 {field: 'title', minWidth: 200, title: '权限名称'},
                 {field: 'condition', title: '权限标识'},
-                //{field: 'condition', title: '菜单url'},
                 {field: 'status', title: '状态', templet: function (d) {
                         if (d.status == 1) {
                             return '正常';
@@ -93,7 +104,7 @@
                 'title' : '新增权限',
                 'url' : 'add',
             }
-            publicMethod.add_method(params);
+            publicMethod.add_method(params,'460px','400px');
         });
 
         //监听工具条
@@ -104,7 +115,12 @@
             if (layEvent === 'del') {
                 layer.msg('删除' + data.id);
             } else if (layEvent === 'edit') {
-                layer.msg('修改' + data.id);
+                var params = {
+                    'title' : '编辑权限',
+                    'data'  : data,
+                    'url'   : 'edit'
+                }
+                publicMethod.edit_method(params,'460px','400px');
             }
         });
     });

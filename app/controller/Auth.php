@@ -10,6 +10,7 @@ use app\model\AuthGroupAccess;
 use app\model\AuthRule;
 use think\facade\Request;
 use think\facade\Session;
+use \think\facade\View;
 
 class Auth extends BaseController
 {
@@ -17,7 +18,9 @@ class Auth extends BaseController
     {
         #获取全部权限
         $menus = $this->getMenuLists('*');
-        \think\facade\View::assign('menus',json_encode($menus->toArray()));
+
+        View::assign('menus',json_encode($menus->toArray()));
+
         return view('menu');
     }
 
@@ -42,17 +45,28 @@ class Auth extends BaseController
     {
         if (Request::isPost()) {
             $request = Request::post();
-            $this->validate([
-                'name' => 'require',
-                'name' => 'require',
-                'name' => 'require',
-                'name' => 'require',
-            ]);
+            try {
+                $this->validate($request,[
+                    'pid_id'    => 'require',
+                    'name'      => 'require',
+                    'condition' => 'require',
+                    'type'      => 'require',
+                ]);
 
-            validate();
-            (new AuthRule)->saveOne([
-                'name'
-            ]);
+                (new AuthRule())->save([
+                    'pid'       => $request['pid_id'],
+                    'name'      => $request['name'],
+                    'title'     => $request['name'],
+                    'condition' => $request['condition'],
+                    'type'      => $request['type'],
+                    'status'    => 1,
+                ]);
+
+                return self::ajaxReturn();
+
+            } catch (\Exception $e) {
+                return self::ajaxReturn(202,$e->getMessage());
+            }
         }
 
         return view('form');
@@ -71,4 +85,14 @@ class Auth extends BaseController
         return $menus;
     }
 
+    public function edit()
+    {
+        if (Request::isPost()) {
+            return true;
+        }
+
+        $info = (new AuthRule())->findOne('*',['id' => Request::get('id')]);
+        View::assign('info',$info);
+        return view('form');
+    }
 }

@@ -58,33 +58,33 @@ abstract class BaseController
     // 初始化
     protected function initialize()
     {
-//        #获取当前控制器/方法
-//        $contro = \think\facade\Request::controller();
-//        $action = \think\facade\Request::action();
-//
-//        #获取权限ids
-//        $join = [
-//            ['auth_group b','b.id = a.group_id']
-//        ];
-//        $condition = ['a.uid' => Session::get('id')];
-//        $rule_ids = (new AuthGroupAccess())->findValue('b.rules',$condition,$join);
-//
-//        #获取页面按钮
-//        $where[] = ['id','in',$rule_ids];
-//        $where[] = ['condition','=',$contro.'/'.$action];
-//        $AuthRule = new AuthRule();
-//        $auth_is = $AuthRule->findValue('id',$where);
-//
-//
-//        if (is_null($auth_is) && !in_array($contro.'/'.$action,config('app.exemption_route'))) {
-//            return Html::create('没有操作权限','html',301);
-//        }
-//
-//        #抛向前台
-//        if (!is_null($auth_is)) {
-//            $buttons = $AuthRule->findAll('*',['type'=>2,'pid'=>$auth_is]);
-//            View::assign('buttons',$buttons);
-//        }
+        #获取当前控制器/方法
+        $contro = \think\facade\Request::controller();
+        $action = \think\facade\Request::action();
+
+        #获取权限ids
+        $join = [
+            ['auth_group b','b.id = a.group_id']
+        ];
+        $condition = ['a.uid' => Session::get('id')];
+        $rule_ids = (new AuthGroupAccess())->findValue('b.rules',$condition,$join);
+
+        #获取页面按钮
+        $where[] = ['id','in',$rule_ids];
+        $where[] = ['condition','=',$contro.'/'.$action];
+        $AuthRule = new AuthRule();
+        $auth_is = $AuthRule->findValue('id',$where);
+
+
+        if (is_null($auth_is) && !in_array($contro.'/'.$action,config('app.exemption_route'))) {
+            return Html::create('没有操作权限','html',301);
+        }
+
+        #抛向前台
+        if (!is_null($auth_is)) {
+            $buttons = $AuthRule->findAll('*',['type'=>2,'pid'=>$auth_is]);
+            View::assign('buttons',$buttons);
+        }
 
     }
 

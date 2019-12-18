@@ -2,9 +2,9 @@
 //通用post请求方法
 var message = '正在处理...';
 
-var page = [20,50,100,200,400,600,800,1000];
+var page = [10,20,50,100];
 
-var default_page = 100;
+var default_page = 10;
 
 var publicMethod = {
     //表单提交
@@ -77,7 +77,7 @@ var publicMethod = {
             area    : [width, height],
             type    : type,
             method  : 'get',
-            content : params.url+'?id='+params.data.id+'&nm='+params.data.nm,
+            content : params.url+'?id='+params.data.id,
             btn     : ['保存', '取消'],
             yes     : function(index, layero){
                 var w = $(layero).find("iframe")[0].contentWindow;//通过该对象可以获取iframe中的变量，调用iframe中的方法
@@ -89,85 +89,9 @@ var publicMethod = {
 
             },
             btn2: function(index, layero){
-                var w = $(layero).find("iframe")[0].contentWindow;//通过该对象可以获取iframe中的变量，调用iframe中的方法
-                var dou = w.document;
-                //获取表单数据
-                var form_data = $(dou).find('form').serializeArray();//获取表单中所有的值
-                var has_hidden_data = $(dou).find('#hidden').val();//判断只有cust_id的添加
-                var is_null = true;
-
-                if (has_hidden_data === undefined){
-
-                    $.each(form_data, function(key, val) {
-                        if (val.name == 'cust_id'){
-                            return true;
-                        }
-                        if (val.value != '') {
-                            is_null = false;
-                        }
-                    });
-                }else{
-                    var hidden_data = JSON.parse($(dou).find('#hidden').val());//获取表单中隐藏的值,便于对比
-                    $.each(form_data, function(key, val) {
-                        //当表格中的值和以前的数据不一样时,将标识符改为false,取消时弹出确认框
-                        //判断条件加undefined是为了不对比一些隐藏的值
-                        if (hidden_data[val.name] != undefined && val.value != hidden_data[val.name]) {
-                            is_null = false;
-                        }
-                    });
-                }
-
-
-                if (!is_null) {
-                    layer.confirm('是否放弃本次操作？', {
-                        time : 0, //不自动关闭
-                        btn  : ['确定', '取消'],
-                        yes  : function(){
-                            layer.close(layer.index);
-                            layer.close(index);
-                        }
-                    });
-                    return false; //不加此代码会让弹出的form表单自动关闭
-                }
 
             },
             cancel: function(index, layero){
-                var w = $(layero).find("iframe")[0].contentWindow;//通过该对象可以获取iframe中的变量，调用iframe中的方法
-                var dou = w.document;
-                //获取表单数据
-                var form_data = $(dou).find('form').serializeArray();//获取表单中所有的值
-                var is_null = true;
-                var has_hidden_data = $(dou).find('#hidden').val();//判断只有cust_id的添加
-                if (has_hidden_data === undefined){
-                    $.each(form_data, function(key, val) {
-                        if (val.name == 'cust_id'){
-                            return true;
-                        }
-                        if (val.value != '') {
-                            is_null = false;
-                        }
-                    });
-                }else {
-                    var hidden_data = JSON.parse($(dou).find('#hidden').val());//获取表单中隐藏的值,便于对比
-                    //当表格中的值和以前的数据不一样时,将标识符改为false,取消时弹出确认框
-                    //判断条件加undefined是为了不对比一些隐藏的值
-                    $.each(form_data, function (key, val) {
-                        if (hidden_data[val.name] != undefined && val.value != hidden_data[val.name]) {
-                            is_null = false;
-                        }
-                    });
-                }
-                if (!is_null) {
-                    layer.confirm('是否放弃本次操作？', {
-                        time : 0, //不自动关闭
-                        btn  : ['确定', '取消'],
-                        yes  : function(){
-                            layer.close(layer.index);
-                            layer.close(index);
-                        }
-                    });
-                    return false; //不加此代码会让弹出的form表单自动关闭
-                }
             }
         })
     },
@@ -183,7 +107,7 @@ var publicMethod = {
         },'json');
     },
     //点击新增按钮时
-    "add_method" : function (params,width='500px',height='300px',type =2) {
+    "add_method" : function (params,width='500px',height='400px',type =2) {
         layui.layer.open({
             title   : params.title,
             area    : [width, height],
