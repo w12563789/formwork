@@ -10,7 +10,7 @@ use app\model\AuthGroupAccess;
 use app\model\AuthRule;
 use think\facade\Request;
 use think\facade\Session;
-use \think\facade\View;
+use think\facade\View;
 
 class Auth extends BaseController
 {
@@ -88,7 +88,24 @@ class Auth extends BaseController
     public function edit()
     {
         if (Request::isPost()) {
-            return true;
+            $request = Request::post();
+            $this->validate($request,[
+                'pid_id'    => 'require',
+                'name'      => 'require',
+                'condition' => 'require',
+                'type'      => 'require',
+            ]);
+
+            (new AuthRule())->update([
+                'pid'       => $request['pid_id'],
+                'name'      => $request['name'],
+                'title'     => $request['name'],
+                'condition' => $request['condition'],
+                'type'      => $request['type'],
+                'status'    => 1,
+            ],['id' => $request['id']]);
+
+            return self::ajaxReturn();
         }
 
         $info = (new AuthRule())->findOne('*',['id' => Request::get('id')]);

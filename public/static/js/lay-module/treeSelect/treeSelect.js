@@ -527,14 +527,15 @@ function(c,a,b,f){(!a||!d.isHidden(c,a))&&s.apply(e,arguments)};var t=e.repairPa
   TreeSelect.prototype.checkNode = function(filter, id){
     var o = obj.filter(filter),
         treeInput = o.find('.layui-select-title input'),
-        treeObj = obj.treeObj(filter),
-        node = treeObj.getNodeByParam("id", id, null),
+        treeObj = obj.treeObj(filter);
+    var node = treeObj.getNodeByParam("id", id, null),
         name = node.name;
     treeInput.val(name);
     o.find('a[treenode_a]').removeClass('curSelectedNode');
     obj.get(filter).val(id).attr('value', id);
     treeObj.selectNode(node);
   };
+
 
   /**
    * 撤销选中的节点
@@ -584,9 +585,9 @@ function(c,a,b,f){(!a||!d.isHidden(c,a))&&s.apply(e,arguments)};var t=e.repairPa
       return o;
     },
     treeObj: function (filter) {
-      var o = obj.filter(filter),
-          treeId = o.find('.layui-treeSelect-body').attr('id'),
-          tree = $.fn.zTree.getZTreeObj(treeId);
+       var o = obj.filter(filter)
+       var treeId = o.find('.layui-treeSelect-body').attr('id'),
+           tree = $.fn.zTree.getZTreeObj(treeId);
       return tree;
     }
   };

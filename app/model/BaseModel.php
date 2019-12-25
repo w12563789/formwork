@@ -75,9 +75,9 @@ class BaseModel extends Model
     /**
      * 保存数据
      */
-    public function saveOne(array $data,array $condition = []):int
+    public function saveOne(array $data,string $pk = null):int
     {
-        return static::save($data,$condition);
+        return static::save($data,$pk);
     }
 
     /**

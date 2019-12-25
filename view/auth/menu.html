@@ -21,7 +21,7 @@
                 <button class="layui-btn" id="btn-expand">全部展开</button>
                 <button class="layui-btn" id="btn-fold">全部折叠</button>
                 {foreach $buttons as $button}
-                    {if $button.title == '删除'}
+                    {if $button.title == '添加权限'}
                         <button class="layui-btn" id="btn-add">添加权限</button>
                     {/if}
                 {/foreach}
@@ -111,7 +111,6 @@
         table.on('tool(munu-table)', function (obj) {
             var data = obj.data;
             var layEvent = obj.event;
-
             if (layEvent === 'del') {
                 layer.msg('删除' + data.id);
             } else if (layEvent === 'edit') {

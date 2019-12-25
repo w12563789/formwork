@@ -2,11 +2,13 @@
 <link rel="stylesheet" href="__static__/css/public.css" media="all">
 <script src="__static__/lib/layui-v2.5.4/layui.js" charset="utf-8"></script>
 <form class="layui-form" action="">
+    <input type="hidden" id="pid_id" name="pid_id" value="{$info['pid']|default=''}">
+    <input type="hidden" id="id" name="id" value="{$info['id']|default=''}">
     <div class="layui-form-item">
+
         <label class="layui-form-label">父级节点：</label>
         <div class="layui-input-inline">
             <input type="text" id="tree" lay-filter="tree" class="layui-input">
-            <input type="hidden" id="pid_id" name="pid_id" value="{$info['pid']|default=''}">
         </div>
     </div>
     <div class="layui-form-item">
@@ -71,8 +73,6 @@
             success:function (d) {
                 if ($('#pid_id').val() != '') {
                     treeSelect.checkNode('tree', $('#pid_id').val());
-                    //treeSelect.checkNode('tree', 1, d.treeId);
-
                 }
             }
         });
