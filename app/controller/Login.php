@@ -19,9 +19,9 @@ class Login
         if (Request::isPost()) {
             $request = Request::post();
             #验证码验证
-//            if(!captcha_check($request['captcha'])){
-//                return self::ajaxReturn(201,'验证码错误');
-//            }
+            if(!captcha_check($request['captcha'])){
+                return self::ajaxReturn(201,'验证码错误');
+            }
 
             #查询用户信息
             $user_infos = (new User())->findOne('*',['user_name'=>$request['username']]);
